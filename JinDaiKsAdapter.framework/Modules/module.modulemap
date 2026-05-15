@@ -1,0 +1,6 @@
+framework module JinDaiKsAdapter {
+  umbrella header "JinDaiKsAdapter.h"
+  export *
+
+  module * { export * }
+}

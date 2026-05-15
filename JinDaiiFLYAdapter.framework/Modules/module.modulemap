@@ -1,0 +1,6 @@
+framework module JinDaiiFLYAdapter {
+  umbrella header "JinDaiiFLYAdapter.h"
+  export *
+
+  module * { export * }
+}

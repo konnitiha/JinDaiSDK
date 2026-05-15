@@ -1,0 +1,6 @@
+framework module JinDaiBaiduAdapter {
+  umbrella header "JinDaiBaiduAdapter.h"
+  export *
+
+  module * { export * }
+}

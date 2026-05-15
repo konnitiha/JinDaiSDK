@@ -1,0 +1,6 @@
+framework module JinDaiSDK {
+  umbrella header "JinDaiSDK.h"
+  export *
+
+  module * { export * }
+}
