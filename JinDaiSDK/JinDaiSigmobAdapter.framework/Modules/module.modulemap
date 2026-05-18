@@ -1,0 +1,6 @@
+framework module JinDaiSigmobAdapter {
+  umbrella header "JinDaiSigmobAdapter.h"
+  export *
+
+  module * { export * }
+}
