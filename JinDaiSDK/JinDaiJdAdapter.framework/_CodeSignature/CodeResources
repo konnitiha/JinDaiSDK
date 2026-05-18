@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0/JzSX3hu3nLC5eXo5ZV/NPs3Hc=
+		94xmfCvqLv6ko5IFOsUaQDPjo8A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,10 +21,6 @@
 	<dict>
 		<key>Headers/JinDaiJdAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H37+O4yp9FkY97+65afm1ozg4/I=
-			</data>
 			<key>hash2</key>
 			<data>
 			Hvj3euHjwrOF8tfn1N1xjDGsUwKawDCt8YE6iaITGoI=
@@ -32,10 +28,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JBFztkYCk+OrbPRQ82eBc4KBbNU=
-			</data>
 			<key>hash2</key>
 			<data>
 			JtHiL+ec657unjVTCSVMrLMxHCCwHFFE7MTsn6atbQY=

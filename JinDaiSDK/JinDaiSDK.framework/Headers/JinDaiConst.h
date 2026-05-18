@@ -49,6 +49,7 @@ typedef NS_ENUM(NSInteger,JinDaiADNChannel) {
     JinDaiADNChannel_Taku = 15,
     JinDaiADNChannel_Cxh = 16,
     JinDaiADNChannel_Sigmob = 17,
+    JinDaiADNChannel_Ms = 18,
     
 };
 

@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
 spec.name         = "JinDaiSDK"
-spec.version      = "1.0.0"
+spec.version      = "1.1.0"
 spec.summary      = "JinDai广告聚合 SDK"
 spec.description  = <<-DESC
 JinDai广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
 DESC
 spec.homepage     = "https://github.com/konnitiha/JinDaiSDK.git"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
-spec.author             = { "openad" => "1053591151@qq.com" }
+spec.author             = { "ad" => "1053591151@qq.com" }
 spec.source       = { :git => "https://github.com/konnitiha/JinDaiSDK.git", :tag => spec.version }
 spec.platform     = :ios, '12.0'
 spec.ios.deployment_target = '12.0'
@@ -70,6 +70,21 @@ spec.subspec 'JdAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'JinDaiSDK/JinDaiJdAdapter.framework'
      ss.dependency 'JADYun','>= 2.6.4'
+end
+
+
+      spec.subspec 'SigmobAdapter' do |ss|
+     ss.dependency 'JinDaiSDK/JinDaiSDK'
+     ss.ios.deployment_target = '12.0'
+     ss.vendored_frameworks = 'JinDaiSDK/JinDaiSigmobAdapter.framework'
+     ss.dependency 'SigmobAd-iOS','>= 4.19.0'
+  end
+  
+  spec.subspec 'MsAdapter' do |ss|
+     ss.dependency 'JinDaiSDK/JinDaiSDK'
+     ss.ios.deployment_target = '12.0'
+     ss.vendored_frameworks = 'JinDaiSDK/JinDaiMsAdapter.framework'
+     ss.dependency 'MSMobAdSDKv3/MS'
 end
 
   
